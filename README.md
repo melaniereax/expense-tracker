@@ -5,11 +5,9 @@ It includes a **Python command-line app** and a **React browser interface**.
 
 ## Project URL
 
-This project implements the [roadmap.sh Expense Tracker project](https://roadmap.sh/projects/expense-tracker).
+Project URL (public GitHub repository): https://github.com/melaniereax/expense-tracker
 
-Project URL: https://roadmap.sh/projects/expense-tracker
-
-Source code: https://github.com/melaniereax/expense-tracker
+Original challenge: [roadmap.sh Expense Tracker](https://roadmap.sh/projects/expense-tracker).
 
 ## Features
 
