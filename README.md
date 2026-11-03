@@ -3,6 +3,14 @@
 A beginner-friendly project for learning how to record and manage expenses.
 It includes a **Python command-line app** and a **React browser interface**.
 
+## Project URL
+
+This project implements the [roadmap.sh Expense Tracker project](https://roadmap.sh/projects/expense-tracker).
+
+Project URL: https://roadmap.sh/projects/expense-tracker
+
+Source code: https://github.com/melaniereax/expense-tracker
+
 ## Features
 
 - Add expenses with a description and amount.
