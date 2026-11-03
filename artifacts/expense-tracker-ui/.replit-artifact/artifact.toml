@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Expense Tracker"
+description = "A beginner-friendly expense tracking web app for adding, editing, deleting, and reviewing expenses with clear totals and monthly summaries. It stores data in the browser and includes learning notes for new programmers."
+version = "1.0.0"
+id = "artifacts/expense-tracker-ui"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20906
+
+[services.development]
+run = "pnpm --filter @workspace/expense-tracker-ui run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/expense-tracker-ui", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/expense-tracker-ui/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20906"
+BASE_PATH = "/"
